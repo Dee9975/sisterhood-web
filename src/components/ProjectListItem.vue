@@ -47,11 +47,11 @@ export default {
     width: 100%;
     height: 280px;
     background-color: #263044;
-    opacity: 40%;
+    opacity: 0.4;
   }
 
   .blur-box:hover {
-    opacity: 80%;
+    opacity: 0.8;
   }
 
   .project-title {

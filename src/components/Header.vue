@@ -1,19 +1,22 @@
 <template>
   <div class="container-fluid app-header">
-    <div class="container">
+    <div class="container hit">
+      <div class="top-right">
+        <span class="home-fun">Home fun</span>
+      </div>
       <div class="bring-top">
-          <span class="name">Elina Frolova</span>
-          <span class="divider"> I </span>
-          <span class="job-title">Digital designer</span>
-          <div class="title-container">
-            <span class="title">Hello fellow Earthlings ✌️</span>
-            <span class="subtext">I am Elina - Digital Designer, based in Copenhagen and World Wide Web</span>
-          </div>
+        <span class="name">Elina Frolova</span>
+        <span class="divider"> I </span>
+        <span class="job-title">Digital designer</span>
+        <div class="title-container">
+          <span class="title">Hello fellow Earthlings ✌️</span>
+          <span class="subtext">I am Elina - Digital Designer, based in Copenhagen and World Wide Web</span>
+        </div>
       </div>
     </div>
     <div class="row">
-      <div class="col-sm-7 p-0"></div>
-      <div class="col-sm-5 p-0 right-image"></div>
+      <div class="col-md-7 p-0"></div>
+      <div class="col-md-5 p-0 right-image"></div>
     </div>
 
   </div>
@@ -31,6 +34,23 @@ export default {
 </script>
 
 <style scoped>
+  .home-fun {
+    font-weight: lighter;
+  }
+
+  .hit {
+    position: relative;
+  }
+
+  .top-right {
+    padding-top: 16px;
+    text-decoration: line-through;
+    position: absolute;
+    height: 798px;
+    right: 0;
+    z-index: 100;
+  }
+
   .bring-top {
     padding-top: 16px;
     position: absolute;
@@ -73,7 +93,6 @@ export default {
   }
 
   .app-header {
-    position: relative;
     background-color: #EEF2F5;
   }
 

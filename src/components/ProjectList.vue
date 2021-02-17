@@ -13,7 +13,7 @@ export default {
   props: ["projects"],
   components: {
     ProjectListItem
-  }
+  },
 }
 </script>
 
